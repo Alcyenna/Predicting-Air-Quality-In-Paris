@@ -23,3 +23,15 @@ MAE moyenne sur 5 polluants.
   - Citer: Larvor G., Berthomier L., Chabot V., Le Pape B., Pradel B., Perez L. (2020). "MeteoNet, an open reference weather dataset by METEO FRANCE".
   - Repo: https://github.com/meteofrance/meteonet — Kaggle: https://www.kaggle.com/katerpillar/meteonet
   - Usage: pour créer des climatologies/profils horaires (pas de données futures sur la période test), respecter les règles du challenge.
+
+- Météo historique (apprentissage) et climatologies (inférence):
+  - meteostat (stations Paris) — historique météo.
+  - ERA5 (réanalyses) — variables atmosphériques (ex. vent, pression, PBLH).
+  - En test, n'utiliser que des climatologies dérivées de l'historique (pas de données futures).
+
+- Calendrier France:
+  - Fériés FR: via `workalendar` (France) ou calendrier officiel du gouvernement.
+  - Vacances scolaires zone C (Paris): calendriers MENJ (publics).
+
+- Trafic (historique):
+  - Archives publiques/rapports de la Ville de Paris, données de congestion si accessibles.
