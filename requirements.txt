@@ -1,0 +1,15 @@
+pandas>=2.2.0
+numpy>=1.26
+scikit-learn>=1.4
+matplotlib>=3.8
+seaborn>=0.13
+prophet>=1.1.5; platform_system != 'Windows'
+statsmodels>=0.14
+lightgbm>=4.3
+catboost>=1.2
+xgboost>=2.0
+qolmat>=0.1.7
+notebook>=7.2
+ipywidgets>=8.1
+pyarrow>=17.0
+polars>=1.7
